@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESULT>
+    <META>
+        <KEY_NAME>TPC3</KEY_NAME>
+        <TITLE>XLS</TITLE>
+        <BEGIN_DATE>26-10-2020</BEGIN_DATE>
+        <END_DATE>02-10-2020</END_DATE>
+        <SUPERVISOR href="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</SUPERVISOR>
+    </META>
+    <WORKTEAM>
+        <MEMBER>
+            <NAME>Pedro Afonso Rodrigues Santos</NAME>
+            <EMAIL href="pg42847@alunos.uminho.pt"> pg42847@alunos.uminho.pt</EMAIL>
+            <NUMBER>PG42847</NUMBER>
+        </MEMBER>
+    </WORKTEAM>
+    <ABSTRACT>
+        <PARAGRAPH>
+            <TEXT>Documentos criados foram baseados no seguinte <LINKS href="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/arq.xml">XML</LINKS> tal como foi indicado.</TEXT>
+        </PARAGRAPH>
+        <PARAGRAPH>
+            <TEXT>
+                <BOLD>1º ETAPA -> DTD</BOLD>
+            </TEXT>
+        </PARAGRAPH>
+        <PARAGRAPH>
+            <TEXT>Tal como foi solicitado criou-se um ficheiro <UNDERLINE>DTD</UNDERLINE>
+                <ITALIC>( Document Type Definition )</ITALIC>  para caracterizar a estrutura, os elementos e atributos do documento XML.</TEXT>
+        </PARAGRAPH>
+        <PARAGRAPH>
+            <TEXT>
+                <BOLD>2º ETAPA -> XSLT</BOLD>
+            </TEXT>
+        </PARAGRAPH>
+        <PARAGRAPH>
+            <TEXT>Com auxílio do Oxygen XML Editor (IDE) criou-se o ficheiro <UNDERLINE>XSLT</UNDERLINE>
+                <ITALIC> (eXtensible Stylesheet Language)</ITALIC> presente de forma a gerar um Website.</TEXT>
+        </PARAGRAPH>
+    </ABSTRACT>
+    <DELIVERABLES>
+        <DELIVERABLE href="result.dtd">result.dtd</DELIVERABLE>
+        <DELIVERABLE href="result.xml">result.xml</DELIVERABLE>
+        <DELIVERABLE href="result.xslt">result.xslt</DELIVERABLE>
+        <DELIVERABLE href="result.html">result.html</DELIVERABLE>
+        <DELIVERABLE href="arq.xml">arq.xml</DELIVERABLE>
+        <DELIVERABLE href="arq.dtd">arq.dtd</DELIVERABLE>
+        <DELIVERABLE href="arqResults.xml">arqResults.xml</DELIVERABLE>
+        <DELIVERABLE href="arq.xslt">arq.xslt</DELIVERABLE>
+    </DELIVERABLES>
+</RESULT>
