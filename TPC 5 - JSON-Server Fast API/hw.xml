@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>App: Escola de Música</key>
+        <title>JSON-Server, Fast API</title>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="PG42847">
+            <name>Pedro Afonso Rodrigues Santos</name>
+            <email>pg42847@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            A partir de uma base de dados JSON sobre uma<link url="https://epl.di.uminho.pt/~jcr/TRANSF/db.json"> Escola de música </link>aparecem 3 categorias:
+            <u>alunos</u>, 
+            <u>cursos</u>,
+            <u>instrumentos</u>,
+            no qual configurou-se uma 
+            <i> API REST </i> com operações 
+            <i> CRUD </i> 
+            (Create, Read, Update and Delete).  
+        </p>
+        <p>
+            Este trabalho consiste no desenvolvimento de um
+            <u>servidor</u> 
+            em
+            <i>Node.js</i>
+            capaz de responder a pedidos de GET sobre um determinado objecto para tal este tem de efectuar um pedido através do browser.
+        </p>
+        <p>
+            Este servidor só responde a pedidos na porta 
+            <u> 3001 </u> .
+            Considere um pedido válido:
+            <b>localhost:3001</b>, onde é apresentado um link 
+            <b>localhost:3001/X</b> que apresenta uma lista de objectos (alunos, cursos ou instrumentos).
+            Em cada uma destas listas podemos observar os membros que fazem parte dos
+            <u> cursos e alunos, </u>
+            cada membro possui um link 
+            <b>localhost:3001/X/YY</b>, no qual apresenta a informação do membro YY do objecto X. 
+            No caso do membro pertencer ao objecto dos alunos temos a referência ao identificador
+            do curso que este aluno frequenta e nesta referência encaminha para outro link
+            <b>localhost:3001/alunos/XXXXX/curso/YYYYY</b>, 
+            Caso queira ver a informação de um membro do tipo curso, é possível observar a lista de alunos (identificador, o nome e o ano do curso) que fazem parte através do link 
+            <b>localhost:3001/cursos/YYYYY/listaalunos</b>.
+        </p>
+        <p>
+            Também temos a possibilidade de voltar à resposta anterior, ou seja, clicar no link "Voltar ...".
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="tpc5.js">tpc5.js</link>
+        <link url="hw.dtd">hw.dtd</link>
+        <link url="hw.xml">hw.xml</link>
+        <link url="hw.xslt">hw.xslt</link>
+        <link url="hw.html">hw.html</link>
+    </deliverables>
+</pr>
