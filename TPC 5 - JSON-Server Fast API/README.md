@@ -6,6 +6,6 @@ A partir de uma base de dados JSON sobre uma [Escola de música] aparecem 3 cate
 Este servidor só responde a pedidos na porta **3001**. Considere um pedido válido: *localhost:3001*, onde é apresentado um link **localhost:3001/X** que apresenta uma lista de 
 objectos (alunos, cursos ou instrumentos).
 
-Para mais detalhe, visite a página **Trabalho de Casa** (hw.html).
+Para mais informaçãoes, visite a página **Trabalho de Casa** (hw.html).
 
 [Escola de música]:https://epl.di.uminho.pt/~jcr/TRANSF/db.json
