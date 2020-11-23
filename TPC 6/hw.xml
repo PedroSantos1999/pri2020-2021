@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>Lista de Tarefas</key>
+        <title>HTML Forms, Static resources, request body processing, Single Page Application</title>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="PG42847">
+            <name>Pedro Afonso Rodrigues Santos</name>
+            <email>pg42847@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho de casa consiste num servidor desenvolvido em <b>Node.js</b> capaz de responder a pedidos de GET e POST na porta 7777
+            com uma <i>API REST</i> configurada através do <b>JSON-Server</b>. 
+        </p>
+        <p> 
+            Para tal foi construida uma <b>Single Page Application</b> capaz de inserir tarefas com uma descrição, responsável, uma data limite e o seu estado.
+            Essas tarefas também são apresentadas numa tabela ordenadas por data limite de forma ascendente e pelo responsável. Nesta tabela também é possível indicar 
+            cada tarefa como resolvida ou cancelada através de um botão.
+        </p>
+        <p>
+            Finalmente, os dados são armazenados num ficheiro <i>JSON</i>.
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="server-tpc.js">server-tpc.js</link>
+        <link url="static.js">static.js</link>
+        <link url="db.json">db.json</link>
+        <link url="hw.dtd">hw.dtd</link>
+        <link url="hw.xml">hw.xml</link>
+        <link url="hw.xslt">hw.xslt</link>
+        <link url="hw.html">hw.html</link>
+    </deliverables>
+</pr>
