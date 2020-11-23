@@ -1,0 +1,46 @@
+{
+    "tarefas": [
+      {
+        "id": "AX04636",
+        "descricao": "Armazenar dados dos alunos",
+        "responsavel": "Ana Margarida Silva",
+        "datalimite": "22-11-2020",
+        "estado": "resolvida"
+      },
+      {
+        "id": "AY12589",
+        "descricao": "Estudar XML e HTML",
+        "responsavel": "Paulo António Rodrigues",
+        "datalimite": "13-01-2021",
+        "estado": "resolvida"
+      },
+      {
+        "id": "AZ99402",
+        "descricao": "Desenvolver os TPCs dado nas aulas",
+        "responsavel": "Martim Almeida Gonçalves",
+        "datalimite": "11-11-2020",
+        "estado": "resolvida"
+      },
+      {
+        "id": "AX55407",
+        "descricao": "Esclarecimento de dúvidas para teste da cadeira",
+        "responsavel": "Jessica Alves Soares",
+        "datalimite": "08-12-2020",
+        "estado": "cancelada"
+      },
+      {
+        "id": "AY62178",
+        "descricao": "Projecto para Tese",
+        "responsavel": "Daniel Manuel Maduro",
+        "datalimite": "14-06-2021",
+        "estado": "cancelada"
+      },
+      {
+        "id": "AZ00521",
+        "descricao": "Desenvolvimento de um Relatório da cadeira",
+        "responsavel": "Francisco Filipe Santos",
+        "datalimite": "20-02-2021",
+        "estado": "cancelada"
+      }
+    ]
+  }
