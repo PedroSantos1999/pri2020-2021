@@ -1,0 +1,36 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+        header.w3-container.w3-blue
+            h3.w3-left Lista de Alunos
+            button.w3-btn.w3-white.w3-right(style="margin-top:0.5%" onclick="window.location.assign('/alunos/registar')") Registar novo aluno
+        if lista.length > 0
+            .w3-container
+                table.w3-table-all.w3-section
+                    tr
+                        th Número
+                        th Nome
+                        th Informação
+                        th Operações
+                    each a in lista
+                        tr
+                            td= a.Número
+                            
+                            td= a.Nome
+
+                            td
+                                button.w3-btn(onclick="window.location.assign('/alunos/" + a._id + "')" class='fa fa-info-circle')
+
+                            td
+                                button.w3-btn(onclick="eliminar('" + a._id + "')" class='fa fa-trash-o')
+                                button.w3-btn(onclick="window.location.assign('/alunos/editar/" + a._id + "')" class='fa fa-edit')
+
+                            
+                               
+        else
+            div(class="w3-container")
+                p Ainda não há alunos.
+    footer(class="w3-container w3-blue w3-center")
+        p Pedro Afonso Rodrigues Santos - MEI - 4º Ano - PRI 20/21
+        p <a href="mailto:pg42847@alunos.uminho.pt">pg42847@alunos.uminho.pt</a>
