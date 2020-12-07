@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1606330208" profile_name="Quick scan" xmloutputversion="1.04" scanner="nmap" version="7.70" startstr="Wed Nov 25 18:50:08 2020" args="nmap -T4 -F google.com"><scaninfo services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157" protocol="tcp" numservices="100" type="syn"></scaninfo><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.70 ( https://nmap.org ) at 2020-11-25 18:50 Hora padrão de GMT
+Nmap scan report for google.com (216.58.215.142)
+Host is up (0.0050s latency).
+rDNS record for 216.58.215.142: mad41s04-in-f14.1e100.net
+Not shown: 78 closed ports
+PORT      STATE    SERVICE
+21/tcp    filtered ftp
+22/tcp    filtered ssh
+23/tcp    filtered telnet
+80/tcp    open     http
+81/tcp    filtered hosts2-ns
+110/tcp   filtered pop3
+143/tcp   filtered imap
+443/tcp   open     https
+465/tcp   filtered smtps
+554/tcp   filtered rtsp
+587/tcp   filtered submission
+993/tcp   filtered imaps
+995/tcp   filtered pop3s
+1723/tcp  filtered pptp
+3306/tcp  filtered mysql
+3389/tcp  filtered ms-wbt-server
+5060/tcp  filtered sip
+5190/tcp  filtered aol
+5900/tcp  filtered vnc
+8080/tcp  filtered http-proxy
+8443/tcp  filtered https-alt
+10000/tcp filtered snet-sensor-mgmt
+
+Nmap done: 1 IP address (1 host up) scanned in 6.26 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="216.58.215.142"></address><hostnames><hostname type="user" name="google.com"></hostname><hostname type="PTR" name="mad41s04-in-f14.1e100.net"></hostname></hostnames><ports><extraports count="78" state="closed"></extraports><port protocol="tcp" portid="21"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="ftp"></service></port><port protocol="tcp" portid="22"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="23"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="telnet"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="118"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="81"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="hosts2-ns"></service></port><port protocol="tcp" portid="110"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="pop3"></service></port><port protocol="tcp" portid="143"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="imap"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="118"></state><service method="table" conf="3" name="https"></service></port><port protocol="tcp" portid="465"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="smtps"></service></port><port protocol="tcp" portid="554"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="rtsp"></service></port><port protocol="tcp" portid="587"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="submission"></service></port><port protocol="tcp" portid="993"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="imaps"></service></port><port protocol="tcp" portid="995"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="pop3s"></service></port><port protocol="tcp" portid="1723"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="pptp"></service></port><port protocol="tcp" portid="3306"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="mysql"></service></port><port protocol="tcp" portid="3389"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="ms-wbt-server"></service></port><port protocol="tcp" portid="5060"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="sip"></service></port><port protocol="tcp" portid="5190"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="aol"></service></port><port protocol="tcp" portid="5900"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="vnc"></service></port><port protocol="tcp" portid="8080"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="http-proxy"></service></port><port protocol="tcp" portid="8443"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="https-alt"></service></port><port protocol="tcp" portid="10000"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="snet-sensor-mgmt"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><runstats><finished timestr="Wed Nov 25 18:50:14 2020" time="1606330214"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>
