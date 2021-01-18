@@ -1,0 +1,5 @@
+1. No Data Cleansing, o ficheiro casamentos.json foi alterado, em que o ref foi substituido pelo id.
+
+2. No MongoDB, foi aberto um terminal com cd C:\Program Files\MongoDB\Server\4.4\bin
+   O ficheiro json foi copiado para a directoria a cima
+   O ficheiro json foi importado no MongoDB com mongoimport --db Teste2020 --collection casamentos --drop --file casamentos.json --jsonArray 

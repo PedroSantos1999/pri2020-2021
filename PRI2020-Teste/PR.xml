@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>Teste de 2020</key>
+        <title>Teste de 2020 - Registos paroquiais do Curral das Freiras da ilha da Madeira e CLAV</title>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="PG42847">
+            <name>Pedro Afonso Rodrigues Santos</name>
+            <email>pg42847@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            O teste de PRI de 2020 é constituida pelo <i>Exercicio 1</i>, no qual o ficheiro <b>casamentos.json</b> foi importado no MongoDB com os comandos 
+            "C:\Program Files\MongoDB\Server\4.4\bin" e "mongoimport --db Teste2020 --collection casamentos --drop --file casamentos.json --jsonArray".
+            E para anotar que o ficheiro JSON passou para a diretoria mencionada, e o rep foi substituido pelo id. Com os comandos npm start e as ferramentas MongoDB e Postman,
+            foi possivel aplicar as instruções propostas no teste
+        </p>
+        <p> 
+            No <i>Exercicio 2</i>, foi posto as credenciais (username: "pri2020@teste.uminho.pt", password="123") para o desenvolvimento do exercício. Com a ferramenta Postman,
+            foi possivel aplicar as instruções propostas no teste. No "aquecimento" no git, encontram-se as respostas das perguntas.
+        </p>
+    </abstract>
+</pr>
