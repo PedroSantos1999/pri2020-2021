@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>Exame de Recurso de PRI/DAW 2020</key>
+        <title>Exame de Recurso de PRI/DAW 2020</title>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42847">
+            <name>Pedro Afonso Rodrigues Santos</name>
+            <email>pg42847@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>        
+        <p> As respostas da alinea 2 encontram-se no ficheiro exercicio1_2.txt </p>
+        <p> O api-server responde as alineas 1, 2 e 3; enquanto que o newserver responde as alineas 4 e 5. Note que tambem foi utilizado o api-server para responder a alinea 5 </p>
+        
+    </abstract>
+    <deliverables>
+        <link url="/api-server">api-server</link>
+        <link url="/api-server/exercicio1_2.txt">Respostas da alinea 2</link>
+        <link url="/newserver">newserver</link>
+    </deliverables>
+</pr>

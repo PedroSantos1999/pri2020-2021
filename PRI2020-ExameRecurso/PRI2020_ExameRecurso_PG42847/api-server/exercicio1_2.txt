@@ -1,0 +1,111 @@
+Antes de mais, a maneira como importei a base de dados na MongoDB foi que copiar ficheiro json para a 
+directoria C:\Program Files\MongoDB\Server\4.4\bin e utilizei 
+mongoimport --db PEI2020 --collection teams --drop --file PEI-teams.json --jsonArray
+
+Sobre esta base de dados especifica as seguintes queries:
+
+     1. Quantas equipes existem na base de dados? (Com o VSCode fiz ctrl+F e procurei a palavra team)
+     R: Existem 87 equipas na base de dados.
+
+     2. Quais as equipes? 
+     R: db.teams.distinct("team").sort()
+[
+        "ACCUPHARM",
+        "ANARCO",
+        "AQUASSEUR",
+        "ARCTIQ",
+        "ATGEN",
+        "BOSTONIC",
+        "CEMENTION",
+        "CHILLIUM",
+        "COLAIRE",
+        "COMCUBINE",
+        "COMSTRUCT",
+        "CORECOM",
+        "CYTREX",
+        "DADABASE",
+        "DATAGEN",
+        "DIGINETIC",
+        "DOGNOST",
+        "EARGO",
+        "EARTHPURE",
+        "ENDIPIN",
+        "EQUICOM",
+        "ERSUM",
+        "EVENTEX",
+        "EVENTIX",
+        "EXOPLODE",
+        "EXOZENT",
+        "EXTRAWEAR",
+        "EZENT",
+        "FITCORE",
+        "FLUMBO",
+        "FOSSIEL",
+        "FURNIGEER",
+        "GEEKETRON",
+        "GEEKKO",
+        "GLEAMINK",
+        "GROK",
+        "GUSHKOOL",
+        "HOTCAKES",
+        "HYDROCOM",
+        "HYPLEX",
+        "IDEALIS",
+        "INEAR",
+        "IRACK",
+        "ISBOL",
+        "ISOTERNIA",
+        "KONGENE",
+        "LIMOZEN",
+        "MARKETOID",
+        "MIRACLIS",
+        "NETERIA",
+        "NEWCUBE",
+        "NEXGENE",
+        "NIPAZ",
+        "ONTAGENE",
+        "ORBALIX",
+        "PHEAST",
+        "PLUTORQUE",
+        "PORTALINE",
+        "PROSELY",
+        "PROXSOFT",
+        "REALMO",
+        "RECRISYS",
+        "REVERSUS",
+        "RUBADUB",
+        "RUGSTARS",
+        "SHOPABOUT",
+        "SQUISH",
+        "STEELTAB",
+        "TELEPARK",
+        "TRANSLINK",
+        "TRI@TRIBALOG",
+        "UTARA",
+        "VELITY",
+        "VERTON",
+        "XELEGYL",
+        "XPLOR",
+        "XUMONK",
+        "YOGASM",
+        "ZAPHIRE",
+        "ZAYA",
+        "ZBOO",
+        "ZEAM",
+        "ZENTIME",
+        "ZIALACTIC",
+        "ZILLACOM",
+        "ZOGAK",
+        "ZOLAREX"
+]
+    3. Quantos alunos existem catalogados na base de dados? (Com o VSCode fiz ctrl+F e procurei a palavra name)
+    R: Existem 822 alunos na base de dados.
+
+    4. Quais os alunos?
+    R:
+
+    5. Quantos alunos do MIEI existem catalogados na base de dados? (Com o VSCode fiz ctrl+F e procurei a palavra MIEI)
+    R: Existem 420 alunos do MIEI na base de dados.
+
+    6. Quantos membros tem cada equipe?
+    R: 

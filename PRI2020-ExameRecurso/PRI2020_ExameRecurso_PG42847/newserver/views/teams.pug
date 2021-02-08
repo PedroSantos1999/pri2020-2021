@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  .w3-top
+    .w3-bar.w3-blue-gray
+      h1="ID: " + dados._id
+  br
+  br
+  br
+  .w3-container.w3-margin
+    .w3-container.w3-margin
+        h3 Informação sobre equipas do Projeto de Engenharia Informática
+        h6 
+          strong ID: 
+          | #{dados._id}
+        h6 
+          strong Team: 
+          | #{dados.team}
+        h6 
+          strong Pitch1: 
+          | #{dados.pitch1}
+        h6 
+          strong Pitch2: 
+          | #{dados.pitch2}
+        h6 
+          strong TechPitch: 
+          | #{dados.techPitch}
+        h6 
+          strong BusinessReport: 
+          | #{dados.businessReport}
+        h6 
+          strong TechReport: 
+          | #{dados.techReport}
+
+      
+        h3 Membros
+        each f in dados.membros
+          li #{f.id}
+          li #{f.name}
+          li #{f.course}
+          li #{f.scores[]}
+
+        
+    button.w3-button.w3-blue-gray(type='button', id='home', onclick='window.location.href="/";') Home
